@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html class="loading" lang="en" data-textdirection="ltr">
+<!-- BEGIN: Head-->
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=0, minimal-ui">
+    <meta name="description"
+        content="Vuexy admin is super flexible, powerful, clean &amp; modern responsive bootstrap 4 admin template with unlimited possibilities.">
+    <meta name="keywords"
+        content="admin template, Vuexy admin template, dashboard template, flat admin template, responsive admin template, web app">
+    <meta name="author" content="PIXINVENT">
+    <title>Remote Patient Monitoring Application</title>
+    <link rel="apple-touch-icon" href="../assets/images/ico/apple-icon-120.png">
+    <link rel="shortcut icon" type="image/x-icon" href="../assets/images/ico/favicon.ico">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;0,400;0,500;0,600;1,400;1,500;1,600"
+        rel="stylesheet">
+
+    <!-- BEGIN: Vendor CSS-->
+    <link rel="stylesheet" type="text/css" href="../assets/vendors/css/vendors.min.css">
+    <link rel="stylesheet" type="text/css" href="../assets/vendors/css/pickers/pickadate/pickadate.css">
+    <link rel="stylesheet" type="text/css" href="../assets/vendors/css/pickers/flatpickr/flatpickr.min.css">
+    <!-- END: Vendor CSS-->
+
+    <!-- BEGIN: Theme CSS-->
+    <link rel="stylesheet" type="text/css" href="../assets/css/bootstrap.css">
+    <link rel="stylesheet" type="text/css" href="../assets/css/bootstrap-extended.css">
+    <link rel="stylesheet" type="text/css" href="../assets/css/colors.css">
+    <link rel="stylesheet" type="text/css" href="../assets/css/components.css">
+    <link rel="stylesheet" type="text/css" href="../assets/css/themes/dark-layout.css">
+    <link rel="stylesheet" type="text/css" href="../assets/css/themes/bordered-layout.css">
+
+    <!-- BEGIN: Page CSS-->
+    <link rel="stylesheet" type="text/css" href="../assets/css/core/menu/menu-types/vertical-menu.css">
+    <link rel="stylesheet" type="text/css" href="../assets/css/plugins/forms/pickers/form-flat-pickr.css">
+    <link rel="stylesheet" type="text/css" href="../assets/css/plugins/forms/pickers/form-pickadate.css">
+    <!-- END: Page CSS-->
+
+    <!-- BEGIN: Custom CSS-->
+    <link rel="stylesheet" type="text/css" href="../assets/css/style.css">
+    <!-- END: Custom CSS-->
+
+</head>
+<!-- END: Head-->
+
+<!-- BEGIN: Body-->
+
+<body class="vertical-layout vertical-menu-modern bordered-layout  navbar-floating footer-static  " data-open="click"
+    data-menu="vertical-menu-modern" data-col="" data-layout="bordered-layout">
+
+
+    <!-- BEGIN: Header-->
+    <nav class="header-navbar navbar navbar-expand-lg align-items-center floating-nav navbar-light navbar-shadow">
+        <div class="navbar-container d-flex content">
+            <div class="bookmark-wrapper d-flex align-items-center">
+                <ul class="nav navbar-nav d-xl-none">
+                    <li class="nav-item"><a class="nav-link menu-toggle" href="javascript:void(0);"><i class="ficon"
+                                data-feather="menu"></i></a></li>
+                </ul>
+
+                <!-- Main title -->
+                <h2>My Profile</h2>
+
+            </div>
+    </nav>
+    <!-- END: Header-->
+
+
+    <!-- BEGIN: Main Menu (Left sidebar)-->
+    <div class="main-menu menu-fixed menu-light menu-accordion menu-shadow" data-scroll-to-active="true">
+        <div class="navbar-header">
+            <ul class="nav navbar-nav flex-row">
+                <li class="nav-item nav-toggle"><a class="nav-link modern-nav-toggle pr-0" data-toggle="collapse"><i
+                            class="d-block d-xl-none text-primary toggle-icon font-medium-4" data-feather="x"></i><i
+                            class="d-none d-xl-block collapse-toggle-icon font-medium-4  text-primary"
+                            data-feather="disc" data-ticon="disc"></i></a></li>
+            </ul>
+        </div>
+        <div class="shadow-bottom"></div>
+        <div class="main-menu-content">
+            <ul class="navigation navigation-main mt-2" id="main-menu-navigation" data-menu="menu-navigation">
+
+                <li class=" nav-item"><a class="d-flex align-items-center" href="index.html"><i
+                            data-feather="home"></i><span class="menu-title text-truncate"
+                            data-i18n="Dashboards">Dashboards</span></a>
+                </li>
+
+                <li class=" nav-item"><a class="d-flex align-items-center" href="my-profile.html"><i
+                            data-feather="user"></i><span class="menu-title text-truncate" data-i18n="Dashboards">My
+                            Profile</span></a>
+                </li>
+
+                <li class=" nav-item"><a class="d-flex align-items-center" href="appointments.html"><i
+                            data-feather="clock"></i><span class="menu-title text-truncate"
+                            data-i18n="Dashboards">Appointments</span></a>
+                </li>
+
+                <li class=" nav-item"><a class="d-flex align-items-center" href="my-prescription.html"><i
+                            data-feather="book-open"></i><span class="menu-title text-truncate"
+                            data-i18n="Dashboards">My Prescription</span></a>
+                </li>
+
+                <li class=" nav-item"><a class="d-flex align-items-center mb-3" href="ask-for-help.html"><i
+                            data-feather="help-circle"></i><span class="menu-title text-truncate"
+                            data-i18n="Dashboards">Ask for Help</span></a>
+                </li>
+
+                <hr>
+
+                <li class=" nav-item"><a class="d-flex align-items-center" href="index.html"><i
+                            data-feather="log-out"></i><span class="menu-title text-truncate"
+                            data-i18n="Dashboards">Logout</span></a>
+                </li>
+
+            </ul>
+        </div>
+    </div>
+    <!-- END: Main Menu-->
+
+    <!-- BEGIN: Content-->
+    <div class="app-content content ">
+        <div class="content-overlay"></div>
+        <div class="header-navbar-shadow"></div>
+        <div class="content-wrapper">
+            <div class="content-body">
+                <form action="#">
+                    <!-- Flatpickr Starts -->
+                    <section id="flatpickr">
+                        <!-- Personal Information -->
+                        <div class="card">
+                            <div class="card-header">
+                                <h4 class="card-title">Personal Information</h4>
+                            </div>
+                            <div class="card-body">
+                                    <div class="row">
+
+                                        <div class="col-md-6">
+
+                                            <div class="form-group">
+                                                <label for="basic-default-password">Full Name</label>
+                                                <div class="input-group form-password-toggle mb-2">
+                                                    <input type="text" class="form-control" id="basic-default-password"
+                                                        placeholder="Your Fullname"
+                                                        aria-describedby="basic-default-password" />
+                                                </div>
+                                            </div>
+
+                                            <div class="form-group">
+                                                <label for="basic-default-password">Phone Number</label>
+                                                <div class="input-group form-password-toggle mb-2">
+                                                    <input type="text" class="form-control" id="basic-default-password" placeholder="Your Phone Number" aria-describedby="basic-default-password" />
+                                                </div>
+                                            </div>
+
+                                            <div class="form-group">
+                                                <label for="basic-default-password">Email</label>
+                                        <div class="input-group form-password-toggle mb-2">
+                                            <input type="text" class="form-control" id="basic-default-password" placeholder="Your Email" aria-describedby="basic-default-password" />
+                                        </div>
+                                            </div>
+
+                                            <div class="form-group">
+                                                <label for="fp-default">Date of Birth</label>
+                                                <input type="text" id="fp-default" class="form-control flatpickr-basic mb-2"
+                                                    placeholder="YYYY-MM-DD" />
+                                            </div>
+
+                                            <div class="form-group">
+                                                <label for="basic-default-password">Occupation</label>
+                                        <div class="input-group mb-2">
+                                            <input type="text" class="form-control" id="basic-default-password" placeholder="Your Occupation" aria-describedby="basic-default-password" />
+                                        </div>
+                                            </div>
+
+                                            <div class="form-group mb-2">
+                                                <label for="basic-default-password">Gender</label>
+                                                <div class="mt-1">
+                                                    <div class="form-check form-check-inline">
+                                                        <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1" value="male" checked="">
+                                                        <label class="form-check-label" for="inlineRadio1">Male</label>
+                                                    </div>
+                                                    <div class="form-check form-check-inline">
+                                                        <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio2" value="female">
+                                                        <label class="form-check-label" for="inlineRadio2">Female</label>
+                                                    </div>
+                                                    <div class="form-check form-check-inline">
+                                                        <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio3" value="others">
+                                                        <label class="form-check-label" for="inlineRadio3">Others</label>
+                                                    </div>
+                                                
+                                                </div>
+                                            </div>
+
+                                            <div class="form-group">
+                                                <label for="basic-default-password">Address</label>
+                                                <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" placeholder="Address"></textarea>
+                                            </div>
+
+
+                                            
+                                        </div>
+                                    </div>
+                            </div>
+
+                           
+
+                        </div><!-- #End Personal Information -->
+                    </section>
+                <!-- Flatpickr Ends-->
+
+                <button class="btn btn-primary mb-5" type="submit">Submit</button>
+
+                </form>
+
+            </div>
+        </div>
+    </div>
+    <!-- END: Content-->
+
+    <div class="sidenav-overlay"></div>
+    <div class="drag-target"></div>
+
+
+
+    <!-- BEGIN: Vendor JS-->
+    <script src="../assets/vendors/js/vendors.min.js"></script>
+    <!-- BEGIN Vendor JS-->
+
+    <!-- BEGIN: Page Vendor JS-->
+    <script src="../assets/vendors/js/pickers/pickadate/picker.js"></script>
+    <script src="../assets/vendors/js/pickers/pickadate/picker.date.js"></script>
+    <script src="../assets/vendors/js/pickers/pickadate/picker.time.js"></script>
+    <script src="../assets/vendors/js/pickers/pickadate/legacy.js"></script>
+    <script src="../assets/vendors/js/pickers/flatpickr/flatpickr.min.js"></script>
+    <!-- END: Page Vendor JS-->
+
+    <!-- BEGIN: Theme JS-->
+    <script src="../assets/js/core/app-menu.js"></script>
+    <script src="../assets/js/core/app.js"></script>
+    <!-- END: Theme JS-->
+
+    <!-- BEGIN: Page JS-->
+    <script src="../assets/js/scripts/forms/pickers/form-pickers.js"></script>
+    <!-- END: Page JS-->
+
+    <script>
+        $(window).on('load', function () {
+            if (feather) {
+                feather.replace({
+                    width: 14,
+                    height: 14
+                });
+            }
+        })
+    </script>
+</body>
+<!-- END: Body-->
+
+</html>
